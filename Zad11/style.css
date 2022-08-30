@@ -1,0 +1,31 @@
+h1 {
+    text-align: center;
+}
+
+#blok {
+    box-sizing: border-box;
+    width: 400px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: rgb(0, 255, 255);
+    border: 2px solid black;
+}
+
+form {
+    padding-top: 30px;
+}
+
+input {
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+label {
+    font-size: 20px;
+    padding-left: 25px;
+}
+
+#przyciski {
+    margin-top: 5px;
+    text-align: center;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pl_PL">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie 14 313061</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Formularz mail w PHP</h1>
+    <div id="blok">
+        <form action="index.php" method="POST">
+            <label>Imię i nazwisko: <input type="text" name="imienazwisko"></label><br />
+            <label>Adres email (zwrotny): <input type="text" name="email"></label><br /><br />
+            <label>Treść wiadomości: <br /><textarea name="wiadomosc"></textarea></label> <br />
+            <div id="przyciski">
+                <button type="reset">Wyczyść</button>
+                <button type="submit">Wyślij</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

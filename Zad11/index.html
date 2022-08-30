@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pl_PL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie 11 313061</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="walidacja.js"></script>
+</head>
+<body>
+    <h1>JavaScript: Walidacja formularza</h1>
+    <div id="blok">
+        <form onsubmit="return walidacja();">
+            <label>Imię: <input type="text" id="imie" placeholder="Wpisz imię"></label><br />
+            <label>Nazwisko: <input type="text" id="nazwisko" placeholder="Wpisz nazwisko"></label><br />
+            <label>Hasło: <input type="text" id="haslo" placeholder="Podaj hasło"></label><br />
+            <div id="przyciski">
+                <button type="reset">Wyczyść</button>
+                <button type="submit">Wyślij</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

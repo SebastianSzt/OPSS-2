@@ -1,0 +1,65 @@
+/* Zadanie 15 313061*/
+
+#blok {
+    box-sizing: border-box;
+    width: 500px;
+    height: 500px;
+    background-color: rgb(0, 255, 255);
+    border: 3px solid black;
+}
+
+form {
+    padding-top: 30px;
+}
+
+label {
+    font-size: 20px;
+    padding-left: 25px;
+}
+
+input {
+    margin-bottom: 10px;
+    margin-left: 5px;
+    font-size: 15px;
+}
+
+#przyciski {
+    margin-top: 5px;
+    padding-left: 30px;
+}
+
+button {
+    margin-right: 10px;
+}
+
+textarea {
+    width: 400px;
+    height: 300px;
+    margin-left: 25px;
+}
+
+#odp1
+{
+    margin-top: 10px;
+    background-color: rgb(201, 225, 207);
+    color: rgb(20, 83, 34);
+    border: 2px dotted black;
+    font-size: 22px;
+    padding: 7px;
+    width: 500px;
+    box-sizing: border-box;
+    display: none;
+}
+
+#odp2
+{
+    margin-top: 10px;
+    background-color: rgb(236, 204, 207);
+    color: rgb(108, 27, 34);
+    border: 2px dotted black;
+    font-size: 22px;
+    padding: 7px;
+    width: 500px;
+    box-sizing: border-box;
+    display: none;
+}

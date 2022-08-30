@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pl_PL">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie 15 313061</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="ajax.js"></script>
+</head>
+
+<body>
+    <h1>Formularz mail w PHP z AJAX</h1>
+    <div id="blok">
+        <form method="post">
+            <label>Imię i nazwisko: <input type="text" id="imienazwisko"></label><br />
+            <label>Adres email (zwrotny): <input type="text" id="email"></label><br /><br />
+            <label>Treść wiadomości: <br /><textarea id="wiadomosc"></textarea></label> <br />
+            <div id="przyciski">
+                <input type="reset" value="Wyczyść">
+                <input type="button" onclick="runAjax()" value="Wyślij">
+            </div>
+        </form>
+    </div>
+    <div id="odp1">Twoja wiadomość została wysłana</div>
+    <div id="odp2">Wystąpił błąd podczas wysyłania wiadomości</div>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Projekt 313061</title>
+        <meta name="description" content="Projekt zaliczeniowy">
+        <meta name="author" content="Sebastian Sztankowski 313061">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <script src="skrypty.js"></script>
+    </head>
+<body>
+    <div id="content">
+        <span class="aktywny"></span>
+
+        <mark>
+            <a href="index.html" class="notextdec">
+                <span class="icon_home">home</span>
+            </a>
+        </mark>
+
+        <header>
+            <span class="icon_menu" onclick="mobileMenu()">menu</span>
+            Strona główna
+            <a href="login.php">
+                <span class="icon_account">account_circle</span>
+            </a>
+        </header>
+        
+        <nav>
+            <ul>
+                <li><a href="konto.php" class="menuItem">Konto</a></li>
+                <li><a href="dysk.php" class="menuItem">Mój dysk</a></li>
+                <li><a href="udostepnione.php" class="menuItem">Udostępnione</a></li>
+                <li><a href="komentarze.php" class="menuItem">Komentarze</a></li>
+                <li><a href="kontakt.php" class="menuItem">Kontakt</a></li>
+            </ul>
+        </nav>
+
+        <div class="mobile_menu">
+            <ul>
+                <li><a href="index.html" class="menuItem_mobile">Strona główna</a></li>
+                <li><a href="konto.php" class="menuItem_mobile">Konto</a></li>
+                <li><a href="dysk.php" class="menuItem_mobile">Mój dysk</a></li>
+                <li><a href="udostepnione.php" class="menuItem_mobile">Udostępnione</a></li>
+                <li><a href="komentarze.php" class="menuItem_mobile">Komentarze</a></li>
+                <li><a href="kontakt.php" class="menuItem_mobile">Kontakt</a></li>
+            </ul>
+        </div>
+
+        <main>
+            <p>Witaj na stronie głównej projektu zaliczeniowego z Opracowywanie serwisów sieciowych 2!</p>
+            <p>Krótki opis strony: Na stronie użytkownik ma możliwość rejestracji i zalogowania na nowo utworzone konto. Użytkownik może wybierać motywy, udostępniać dysk i zmieniać dane konta. Strona służy do przechowywania plików, dzielenia się nimi z innymi użytkownikami i komentowaniu dysków. Strona posiada również formularz kontaktowy do twórcy strony.</p>
+            <p>Strona dostępna jest również pod adresem: <a href="http://fizyka.umk.pl/~313061/OPSS-2/Zaliczenie/index.html" class="notextdec">http://fizyka.umk.pl/~313061/OPSS-2/Zaliczenie/index.html</a></p>
+            Dostępne podstrony:
+            <ol>
+                <li>index.html</li>
+                <li>login.php</li>
+                <li>rejestracja.php</li>
+                <li>konto.php</li>
+                <li>dysk.php</li>
+                <li>udostepnione.php</li>
+                <li>komentarze.php</li>
+                <li>kontakt.php</li>
+            </ol>
+        </main>
+    </div>
+
+    <script>
+        if (localStorage.getItem('motyw') == 'ciemny')
+        {
+            motywy();
+        }
+    </script>
+
+</body>
+</html>
